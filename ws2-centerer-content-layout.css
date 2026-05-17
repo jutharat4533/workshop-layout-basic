@@ -1,0 +1,82 @@
+div.page {
+  font-family: "prompt";
+  border: 1px solid rgb(197, 180, 180);
+  border-radius: 12px;
+  width: auto;
+  height: auto;
+}
+
+div.tool {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.page_name {
+  font-size: 20px;
+  color: rgb(63, 101, 238);
+  font-weight: 700;
+  padding: 30px 20px;
+  margin: 0px auto 0px;
+  text-align: center;
+  align-items: center;
+  top: 50px;
+}
+button.button {
+  color: white;
+  border: 1px solid rgb(253, 251, 251);
+  background-color: rgb(56, 109, 223);
+  border-radius: 8px;
+  width: 70px;
+  height: 30px;
+  font-weight: 400;
+  font-size: 14px;
+}
+span.cours {
+  font-size: 14px;
+  color: rgb(40, 38, 38);
+  border: none;
+  background-color: white;
+  padding: 20px 20px;
+}
+
+span.article {
+  font-size: 14px;
+  color: rgb(40, 38, 38);
+  border: none;
+  background-color: white;
+  padding: 20px 20px;
+}
+
+h1 {
+  font-weight: 400;
+  text-align: center;
+  margin: 40px 0px auto 0px;
+}
+
+p {
+  font-weight: 300;
+  text-align: center;
+  font-size: 14px;
+  color: rgb(51, 49, 49);
+  margin: 0px auto 0px;
+}
+
+button.next-step {
+  font-weight: 400;
+  font-size: 16px;
+  color: rgb(246, 245, 242);
+  background-color: rgb(56, 109, 223);
+  width: 120px;
+  height: 42px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 40%;
+  text-align: center;
+}
+div.rt {
+  z-index: 1;
+  margin-left: auto;
+}
